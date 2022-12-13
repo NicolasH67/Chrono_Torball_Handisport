@@ -39,6 +39,8 @@ body{
             height: 50px;
             border-radius: 15px;
             box-shadow: 2px 2px 5px #000;
+            font-size: 1rem;
+            font-weight: bold;
         }
         &__start{
             background-color: #33D4FF;
@@ -48,6 +50,7 @@ body{
         }
         &__reset{
             background-color: #FF3333;
+            color: #FFF;
         }
     }
 }
