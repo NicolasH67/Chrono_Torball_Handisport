@@ -46,9 +46,11 @@ body {
 }
 .wrapperPrincipalTimer__buttons__start, .wrapperHalfTimeTimer__buttons__start, .wrapperTimeoutTimer__buttons__start {
   background-color: #33D4FF;
+  color: #000;
 }
 .wrapperPrincipalTimer__buttons__stop, .wrapperHalfTimeTimer__buttons__stop, .wrapperTimeoutTimer__buttons__stop {
   background-color: #FFB833;
+  color: #000;
 }
 .wrapperPrincipalTimer__buttons__reset, .wrapperHalfTimeTimer__buttons__reset, .wrapperTimeoutTimer__buttons__reset {
   background-color: #FF3333;
