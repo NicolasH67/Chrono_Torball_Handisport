@@ -4,6 +4,10 @@ body{
 
 .header{
     width: 99%;
+    @media screen and (min-width: 768px){
+        display: flex;
+        flex-direction: row;
+    }
     &__img{
         display: block;
         width: 20%;
@@ -12,6 +16,9 @@ body{
     }
     &__title{
         text-align: center;
+        @media screen and (min-width: 768px){
+            margin: auto;
+        }
     }
 }
 

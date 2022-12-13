@@ -5,6 +5,12 @@ body {
 .header {
   width: 99%;
 }
+@media screen and (min-width: 768px) {
+  .header {
+    display: flex;
+    flex-direction: row;
+  }
+}
 .header__img {
   display: block;
   width: 20%;
@@ -13,6 +19,11 @@ body {
 }
 .header__title {
   text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .header__title {
+    margin: auto;
+  }
 }
 
 .wrapperPrincipalTimer, .wrapperHalfTimeTimer, .wrapperTimeoutTimer {
