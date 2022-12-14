@@ -17,6 +17,11 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+@media screen and (min-width: 1024px) {
+  .header__img {
+    width: 15%;
+  }
+}
 .header__title {
   text-align: center;
 }
